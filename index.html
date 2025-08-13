@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Veg Pizza</title>
+  <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1 id="dish-name">Veg Pizza</h1>
+    <p id="dish-desc">A delicious cheesy veg pizza loaded with fresh vegetables, herbs, and a crispy crust. Approx. 265 calories per slice.</p>
+
+    <model-viewer src="assets/model.glb" alt="3D Veg Pizza"
+      ar ar-modes="scene-viewer webxr quick-look"
+      environment-image="assets/environment.hdr"
+      camera-controls auto-rotate
+      exposure="1" shadow-intensity="1">
+    </model-viewer>
+  </div>
+</body>
+</html>
